@@ -1,0 +1,27 @@
+@tailwind utilities;
+@tailwind components;
+@tailwind base;
+
+/* Works on Chrome, Edge, and Safari */
+* {
+    scrollbar-width: thin; /* Firefox */
+    scrollbar-color: #777676 #5c5b5b; /* Firefox: thumb and track */
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 8px; /* horizontal scrollbar */
+    height: 8px; /* vertical scrollbar */
+}
+
+*::-webkit-scrollbar-track {
+    background: #5c5b5b; /* color of the tracking area */
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #777676; /* color of the scroll thumb */
+    border-radius: 4px; /* roundness of the scroll thumb */
+    border: 2px solid #585858; /* creates padding around scroll thumb */
+}
+
+
