@@ -68,7 +68,7 @@
 		class="mx-auto border-b border-orange-600 bg-neutral-700 p-2 text-center text-xl text-white/50 shadow-inner shadow-black"
 	>
 		Make a PR king <a
-			href="https://www.cia.gov/"
+			href="https://github.com/magooney-loon/svelte-4ever"
 			target="_blank"
 			class="text-orange-500 hover:text-orange-400">@github</a
 		>
