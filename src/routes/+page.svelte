@@ -61,7 +61,7 @@
 
 <svelte:head>
 	{@html ashes}
-	<title>Svelte • MyCodeBlox</title>
+	<title>Svelte • 4Ever</title>
 </svelte:head>
 <body class="min-h-screen cursor-crosshair bg-orange-500 font-mono">
 	<div
