@@ -1,6 +1,6 @@
 # svelte-4ever :O vs svelte5 -.-
 
-[Live webside](https://codebox-orpin.vercel.app/)
+[Live webside](https://svelte-4ever.vercel.app/)
 
 ## Creating a new example
 
