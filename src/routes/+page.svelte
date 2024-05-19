@@ -20,6 +20,7 @@
 	import Player from '$lib/Player.svelte';
 	import Scrollbar from '$lib/Misc/Scrollbar.svelte';
 	import VercelAnalyitix from '$lib/Utils/VercelAnalyitix.svelte';
+	import Carousel from '$lib/Utils/Carousel.svelte';
 
 	const menuItems = ['Utils', 'Cool', 'Misc'];
 	const selectedItem = writable(menuItems[0]);
@@ -87,6 +88,8 @@
 	</div>
 	<Player />
 	{#if $selectedItem === 'Utils'}
+		<Carousel />
+		<hr class="mx-auto w-1/2 animate-ping border border-orange-500" />
 		<Imgshufflerz />
 		<hr class="mx-auto w-1/2 animate-ping border border-orange-500" />
 		<ToTop />
@@ -95,7 +98,7 @@
 		<hr class="mx-auto w-1/2 animate-ping border border-orange-500" />
 		<MetamaskStore />
 		<hr class="mx-auto w-1/2 animate-ping border border-orange-500" />
-    <VercelAnalyitix />
+		<VercelAnalyitix />
 		<hr class="mx-auto w-1/2 animate-ping border border-orange-500" />
 		<Spinner />
 	{/if}
